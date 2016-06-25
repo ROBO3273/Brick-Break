@@ -44,10 +44,10 @@ text4 = font2.render("Score: " + str(score), 0, (60,180,255), (240 ,240 ,240))
 text5 = font2.render("Lives: " + str(life), 0, (60,180,255), (240 ,240 ,240))
 text6 = font2.render("Stage: " + str(stage), 0, (60,180,255), (240 ,240 ,240))
 
-explode = pygame.mixer.Sound("D:\SHD\ROBOT\pygame\\brickbreak\sounds\explode.wav")
-took = pygame.mixer.Sound("D:\SHD\ROBOT\pygame\\brickbreak\sounds\\took.wav")
-shoot = pygame.mixer.Sound("D:\SHD\ROBOT\pygame\\brickbreak\sounds\shoot.wav")
-moonlight = pygame.mixer.Sound("D:\SHD\ROBOT\pygame\\brickbreak\sounds\moonlight.wav")
+explode = pygame.mixer.Sound("D:\\SHD\ROBOT\pygame\\brickbreak\\sounds\\explode.wav")
+took = pygame.mixer.Sound("D:\\SHD\ROBOT\\pygame\\brickbreak\\sounds\\took.wav")
+shoot = pygame.mixer.Sound("D:\\SHD\ROBOT\pygame\\brickbreak\\sounds\\shoot.wav")
+moonlight = pygame.mixer.Sound("D:\\SHD\ROBOT\\pygame\\brickbreak\\sounds\\moonlight.wav")
 
 def Brickinit():
     global bricks_cols, bricks_rows, brick_H, brick_W, brick_padding, brick_Offsettop, brick_Offsetleft
